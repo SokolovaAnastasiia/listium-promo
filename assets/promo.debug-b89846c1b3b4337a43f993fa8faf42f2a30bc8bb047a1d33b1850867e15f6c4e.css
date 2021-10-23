@@ -1,0 +1,211 @@
+/* line 8, app/assets/stylesheets/promo.css.scss */
+.heading {
+  height: 690px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 150px;
+  width: 1440px;
+  background-image: url("promo_listium_bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+/* line 17, app/assets/stylesheets/promo.css.scss */
+.heading span {
+  font-family: 'Fugue';
+  font-size: 120px;
+  display: block;
+}
+
+/* line 22, app/assets/stylesheets/promo.css.scss */
+.heading p {
+  font-family: 'Circe';
+  font-size: 36px;
+  margin: 0;
+  line-height: 40px;
+}
+
+/* line 30, app/assets/stylesheets/promo.css.scss */
+.description {
+  height: 690px;
+  width: 1440px;
+  background-image: url("description.svg");
+  background-repeat: no-repeat;
+  background-position: center right 20%;
+}
+
+/* line 38, app/assets/stylesheets/promo.css.scss */
+.find {
+  height: 690px;
+  box-sizing: border-box;
+  margin: 200px auto 0;
+  padding: 150px;
+  width: 1440px;
+  background-image: url("find_bg.png");
+  background-repeat: no-repeat;
+  background-position: center right 10%;
+}
+
+/* line 47, app/assets/stylesheets/promo.css.scss */
+.find span {
+  font-family: 'Fugue';
+  font-size: 70px;
+  display: block;
+}
+
+/* line 52, app/assets/stylesheets/promo.css.scss */
+.find p {
+  font-family: 'Circe';
+  font-size: 36px;
+  margin: 0;
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+/* line 59, app/assets/stylesheets/promo.css.scss */
+.find img {
+  margin-top: 20px;
+}
+
+/* line 65, app/assets/stylesheets/promo.css.scss */
+.create {
+  height: 690px;
+  box-sizing: border-box;
+  margin: 0px 132px 0 0px;
+  padding: 150px 0;
+  width: 1440px;
+  background-image: url("create_mockup.png");
+  background-repeat: no-repeat;
+  background-position: center left -72%;
+}
+
+/* line 74, app/assets/stylesheets/promo.css.scss */
+.create div {
+  float: right;
+}
+
+/* line 76, app/assets/stylesheets/promo.css.scss */
+.create div span {
+  font-family: 'Fugue';
+  font-size: 70px;
+  display: block;
+}
+
+/* line 81, app/assets/stylesheets/promo.css.scss */
+.create div p {
+  font-family: 'Circe';
+  font-size: 36px;
+  margin: 0;
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+/* line 88, app/assets/stylesheets/promo.css.scss */
+.create div img {
+  margin-top: 20px;
+}
+
+/* line 94, app/assets/stylesheets/promo.css.scss */
+.friends {
+  height: 690px;
+  box-sizing: border-box;
+  margin: 200px auto 0;
+  margin-right: 0;
+  margin-left: 100px;
+  padding-right: 0;
+  padding: 150px;
+  background-image: url("frieds_bg.png");
+  background-repeat: no-repeat;
+  background-position: center right -5%;
+}
+
+/* line 105, app/assets/stylesheets/promo.css.scss */
+.friends span {
+  font-family: 'Fugue';
+  font-size: 70px;
+  display: block;
+}
+
+/* line 110, app/assets/stylesheets/promo.css.scss */
+.friends p {
+  font-family: 'Circe';
+  font-size: 36px;
+  margin: 0;
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+/* line 121, app/assets/stylesheets/promo.css.scss */
+.comment {
+  height: 690px;
+  box-sizing: border-box;
+  margin: 200px auto 0;
+  padding: 150px;
+  width: 1440px;
+  background-image: url("comment.png");
+  background-repeat: no-repeat;
+  background-position: center left 10%;
+}
+
+/* line 130, app/assets/stylesheets/promo.css.scss */
+.comment div {
+  float: right;
+}
+
+/* line 132, app/assets/stylesheets/promo.css.scss */
+.comment div span {
+  font-family: 'Fugue';
+  font-size: 70px;
+  display: block;
+}
+
+/* line 137, app/assets/stylesheets/promo.css.scss */
+.comment div p {
+  font-family: 'Circe';
+  font-size: 36px;
+  margin: 0;
+  line-height: 40px;
+  margin-top: 25px;
+}
+
+/* line 147, app/assets/stylesheets/promo.css.scss */
+#subss {
+  font-family: 'Fugue';
+  font-size: 36px;
+  display: block;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+/* line 156, app/assets/stylesheets/promo.css.scss */
+.new_subscriber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 163, app/assets/stylesheets/promo.css.scss */
+.sub__input {
+  padding: 5px 31px;
+  border: white 3px solid;
+  width: 454px;
+  border-radius: 32px;
+  background-color: #1C1C1C;
+  height: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* line 174, app/assets/stylesheets/promo.css.scss */
+.sub__btn {
+  color: white;
+  background-color: #5920E9;
+  padding: 5px 31px;
+  border: white 3px solid;
+  width: 524px;
+  border-radius: 32px;
+  height: 45px;
+}
+
+/*# sourceMappingURL=promo.css-2b2e8ff89ece5c416b97eaae4dba929ef748367d398fb7c76d9b62622a43d3a3.map */
